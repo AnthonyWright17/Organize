@@ -36,7 +36,7 @@ function formHandler(){
 }
 //Search Event
 searchBtn.addEventListener('click', (event)=>{
-  event.preventDefault(EventTarget)
+  event.preventDefault(event.target)
   aniSearchHandler();
 })
 //Search Function
